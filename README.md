@@ -1,2 +1,2 @@
 # python-fundamental
-Python for absolute beginners: Basic syntax in python and basic 3 programming constructs
+Python untuk: Sintaksis dasar dan 3 blok program
