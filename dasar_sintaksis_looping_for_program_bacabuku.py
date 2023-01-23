@@ -1,5 +1,5 @@
 """
-Program looping membaca buku
+Looping - for, Program membaca buku
 """
 
 jumlah_buku = 10
