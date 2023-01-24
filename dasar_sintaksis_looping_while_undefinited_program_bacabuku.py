@@ -11,10 +11,14 @@ jumlah_buku_dibaca_paham = 0
 print(f'Total buku sudah dibaca: {total_baca}')
 print(f'Jumlah buku yg sudah dibaca dan dipahami: {jumlah_buku_dibaca_paham}')
 
-while jumlah_buku_dibaca_paham < jumlah_buku:
+while total_baca < jumlah_buku*2:
     total_baca = total_baca+1
-    if total_baca < jumlah_buku * 2:
-        jumlah_buku_dibaca_paham = jumlah_buku_dibaca_paham+1
-        print(f'Jumlah buku dibaca dan paham {jumlah_buku_dibaca_paham}')
+    if jumlah_buku_dibaca_paham < jumlah_buku-1:
+       jumlah_buku_dibaca_paham = jumlah_buku_dibaca_paham + 1
+       print(f'Buku ke {jumlah_buku_dibaca_paham} sudah dibaca dan paham')
     else:
-        print(f'Total baca: {total_baca}')
+        print(f'Buku ke {jumlah_buku_dibaca_paham+1} belum paham')
+
+print(f'Total baca: {total_baca}')
+
+
