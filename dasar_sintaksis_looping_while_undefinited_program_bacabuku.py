@@ -18,7 +18,7 @@ while total_baca < jumlah_buku*2:
        print(f'Buku ke {jumlah_buku_dibaca_paham} sudah dibaca dan paham')
     else:
         print(f'Buku ke {jumlah_buku_dibaca_paham+1} belum paham')
-
+print(f'Jumlah buku yg sudah dibaca dan dipahami {jumlah_buku_dibaca_paham}')
 print(f'Total baca: {total_baca}')
 
 
