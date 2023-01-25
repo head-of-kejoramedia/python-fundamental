@@ -21,4 +21,5 @@ print('\n')
 for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
 print('\nTambahkan 1 Buku Baru')
-print(daftar_buku.append('Dunia Matematika'))
+daftar_buku.append('Dunia Matematika')
+print(daftar_buku)
