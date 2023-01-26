@@ -22,3 +22,9 @@ print(daftar_buku[1:3])
 print('\n3#Menambahkan List Dengan .append')
 daftar_buku.append('4DX')
 print(daftar_buku)
+for i in daftar_buku:
+    print(i)
+
+print('\n4#List Python Bisa Campur (Integer - String) dan Dinamis (Bisa Didefinisikan Ulang)')
+daftar_buku = [12,'Kenji Volume 3',-313,3.14]
+print(daftar_buku)
