@@ -50,3 +50,42 @@ print(daftar_buku.pop())
 
 daftar_buku = ['Seven Habits','How to Influence People','First Thing First', '4DX','Dunia Matematika']
 print(daftar_buku.pop(-2))
+
+print('\n8# Menghapus Dengan Perintah Del + List Comprehension')
+
+daftar_buku = ['Seven Habits','How to Influence People','First Thing First', '4DX','Dunia Matematika']
+del daftar_buku[0]
+print(daftar_buku)
+del daftar_buku[0:2]
+print(daftar_buku)
+print('\n#List Comprehension')
+del daftar_buku[:]
+print(daftar_buku)
+daftar_buku = ['Seven Habits','How to Influence People','First Thing First', '4DX','Dunia Matematika']
+del daftar_buku[0:]
+print(daftar_buku)
+
+print('\n9# Membuat List Baru Dengan List Comprehension')
+
+daftar_buku = ['Seven Habits','How to Influence People','First Thing First', '4DX','Dunia Matematika']
+buku_favoritku = daftar_buku[0:3]
+
+print(buku_favoritku)
+
+print('\n10# Simpel Code Menggunakan List Comprehension')
+
+# Without List Comprehension
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+
+print(newlist)
+
+# Using List Comprehension
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = [x for x in fruits if "a" in x]
+
+print(newlist)
