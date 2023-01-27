@@ -58,6 +58,7 @@ del daftar_buku[0]
 print(daftar_buku)
 del daftar_buku[0:2]
 print(daftar_buku)
+
 print('\n#List Comprehension')
 del daftar_buku[:]
 print(daftar_buku)
@@ -89,3 +90,4 @@ fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 newlist = [x for x in fruits if "a" in x]
 
 print(newlist)
+
