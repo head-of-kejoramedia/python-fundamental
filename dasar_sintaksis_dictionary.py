@@ -1,9 +1,12 @@
+"""
+Memahami Tipe Data Dictionary
+"""
+print('\n# Dasar Type Data Dictionary')
 users = {"id": 1,
 "name": "Leanne Graham",
 "username": "Bret",
 "email": "Sincere@april.biz"}
 
-print(users)
 print(users["email"])
 
 print('\n')
