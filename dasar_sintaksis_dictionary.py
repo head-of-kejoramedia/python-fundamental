@@ -1,7 +1,7 @@
 """
 Memahami Tipe Data Dictionary
 """
-print('\n# Dasar Type Data Dictionary')
+print('\n#1. Dasar Type Data Dictionary')
 users = {"id": 1,
 "name": "Leanne Graham",
 "username": "Bret",
@@ -16,3 +16,22 @@ print(users["id"])
 print(users["name"])
 print(users["username"])
 print(users["email"])
+
+print('\n#2. Type Data Dictionary Lebih Kompleks')
+users = {"id": 1,
+"name": "Leanne Graham",
+"username": "Bret",
+"email": "Sincere@april.biz",
+"Adress": {
+    "Street" : "Jl. Doar Selatan",
+    "No." : 1,
+    "District" : "Liangjulang - Kadipaten",
+    "City" : "Majalengka",
+    "Zip Code" : 45452,
+    "Geo" : {"Lat" : -37.654, "Long" : 67.234}}
+         }
+print(users)
+print(users["name"])
+print(users["username"])
+print(users["email"])
+print(users["Adress"])
