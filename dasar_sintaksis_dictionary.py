@@ -38,3 +38,14 @@ print(users["Adress"])
 print(users["Adress"]["Street"])
 print(users["Adress"]["Geo"]["Lat"])
 print(users["Adress"]["Geo"]["Long"])
+
+print('\n#3. Mengubah Type Data Dictionary ke JSON')
+# Mengubah ke JSON Sting json.dumps
+
+print(users)
+print(type(users))
+
+import json
+result = json.dumps(users)
+print(result)
+print(type(result))
